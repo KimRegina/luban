@@ -65,6 +65,7 @@ public class GenerationContext
 
     public void LoadDatas()
     {
+        s_logger.Info("========load datas begin custom========");
         s_logger.Info("load datas begin");
         DataLoaderManager.Ins.LoadDatas(this);
         s_logger.Info("load datas end");
