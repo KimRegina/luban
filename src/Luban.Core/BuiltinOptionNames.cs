@@ -18,6 +18,8 @@ public static class BuiltinOptionNames
     
     public const string OutputSaver = "outputSaver";
 
+    public const string CleanUpOutputDir = "cleanUpOutputDir";
+
     public const string SchemaCollectorFamily = "schemaCollector";
 
     public const string L10NFamily = "l10n";
@@ -25,6 +27,8 @@ public static class BuiltinOptionNames
     public const string TextProviderName = "textProviderName";
 
     public const string TextProviderFile = "textProviderFile";
+
+    public const string TextKeyListFile = "textListFile";
 
     public const string TextKeyFieldName = "key";
 
@@ -36,5 +40,5 @@ public static class BuiltinOptionNames
 
     public const string PathValidatorRootDir = "rootDir";
 
-    public const string ForceLoadDatas = "forceLoadDatas";
+    public const string NamingConvention = "namingConvention";
 }
